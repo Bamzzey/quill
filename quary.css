@@ -1,0 +1,90 @@
+/* LG SMALL-LAPTOPS 1024px - 1280px */
+
+@media (max-width: 69rem) {
+    /* 1110px/16px =69rems  */
+    /*  65px*16px =1040px  */
+    
+    
+    html {
+        font-size: 56.25%;
+        /*  (9px/16px * 100)= 56.25% */
+    }
+    
+    .features-grid-container {
+        column-gap: 2rem;
+    }
+
+    .cta-section {
+        margin-bottom: 20rem;
+    }
+
+
+} 
+
+/* MD TABLET 768PX - 1024px */
+
+@media (max-width: 54rem) {
+    /* 860px /16px =54rem */
+    /* 54rem * 16px = 864px */
+  
+  
+    html {
+        font-size: 50%;
+        /* 8px / 16px  * 100 = 50% */
+   } 
+}
+
+/* SM PHONE-LANDSCAPE 576PX - 768PX */
+
+@media (max-width: 43rem) {
+    /* 645px / 16px = 43rem  */
+    /* 43rem * 16px =645px  */
+
+    html {
+        font-size: 43.75%;
+        /* 7px / 16px * 100 = 43.75% */
+    }
+
+    .cta-card {
+        padding: 8rem 16rem;
+    }
+
+    .features-section {
+        margin-bottom: 20rem;
+    }
+
+    .features-grid-container {
+        row-gap: 5rem;
+        column-gap: 0.5rem;
+    }
+}
+
+/*XS - PHONE <576PX */
+
+@media (max-width: 32rem) {
+/* 505PX / 16PX = 32REM */
+/* 32REM * 16PX = 512PX */
+
+    html {
+        font-size: 37.5%;
+        /* 6px / 16px * 100 = 37.5% */
+    }
+    .br-tag {
+        display: none;
+    }
+    .hero-section  {
+        height: auto;
+    }
+    .features-grid-container {
+        grid-template-columns: 1fr
+    }
+    .feature-img-swap-order {
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .cta-card {
+        padding: 8rem 6rem;
+    }
+}
+
+
